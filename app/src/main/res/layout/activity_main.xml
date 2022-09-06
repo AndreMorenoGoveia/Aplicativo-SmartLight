@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1c1c1c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="277dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="62dp"
+        android:text="Filho"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonFilha"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonFilha"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFilha"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/imageButtonFilha"
+        android:layout_alignEnd="@+id/imageButtonFilha"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="63dp"
+        android:text="Filha"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonFilha"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonFilha"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFilha"
+        app:textAllCaps="false" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/imageButtonPai"
+        android:layout_alignStart="@+id/imageButtonPai"
+        android:layout_alignEnd="@+id/imageButtonPai"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="49dp"
+        android:text="Pai"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonPai"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonPai"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPai"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="44dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/imageButtonMae"
+        android:layout_alignStart="@+id/imageButtonMae"
+        android:layout_alignEnd="@+id/imageButtonMae"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="47dp"
+        android:text="Mãe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonMae"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonMae"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMae"
+        app:textAllCaps="false" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPai"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/pai140" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMae"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/mae140" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFilha"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/filha140" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFilho"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/filho140" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="206dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="99dp"
+        app:srcCompat="@drawable/lampada" />
+
+
+</RelativeLayout>

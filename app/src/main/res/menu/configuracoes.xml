@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+
+        android:id= "@+id/retorna"
+        android:icon="@drawable/ic_baseline_keyboard_return_24"
+        app:showAsAction="ifRoom"
+
+    />
+
+    <item android:id= "@+id/hallway"
+        android:title="Corredor"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/kitchen"
+        android:title="Cozinha"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/daughteroom"
+        android:title="Quarto filha"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/siblinsbathroom"
+        android:title="Banheiro filhos"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sonroom"
+        android:title="Quarto filho"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/parentroom"
+        android:title="Quarto pais"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/parentbathroom"
+        android:title="Banheiro pais"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/livingroom"
+        android:title="Sala de estar"
+        app:showAsAction="never" />
+
+
+</menu>

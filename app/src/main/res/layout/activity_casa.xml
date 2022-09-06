@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    tools:context=".Casa"
+    >
+
+    <ToggleButton
+        android:id="@+id/quartofilha"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/quartofilha"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ToggleButton
+        android:id="@+id/banheirofilhos"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/banheirofilhos"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="@+id/quartofilha"
+        app:layout_constraintStart_toStartOf="@+id/quartofilha"
+        app:layout_constraintTop_toBottomOf="@+id/quartofilha" />
+
+    <ToggleButton
+        android:id="@+id/quartofilho"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/quartofilho"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="@+id/banheirofilhos"
+        app:layout_constraintStart_toStartOf="@+id/banheirofilhos"
+
+        app:layout_constraintTop_toBottomOf="@+id/banheirofilhos" />
+
+    <ToggleButton
+        android:id="@+id/sala"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:background="@drawable/sala"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="@+id/quartofilho"
+        app:layout_constraintTop_toBottomOf="@+id/quartofilho" />
+
+    <ToggleButton
+        android:id="@+id/corredor"
+        android:layout_width="60dp"
+        android:layout_height="300dp"
+        android:background="@drawable/corredor"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/quartofilho"
+        app:layout_constraintEnd_toStartOf="@+id/banheirofilhos"
+        app:layout_constraintStart_toStartOf="@+id/sala"
+        app:layout_constraintTop_toTopOf="@+id/quartofilha" />
+
+    <ToggleButton
+        android:id="@+id/cozinha"
+        android:layout_width="120dp"
+        android:layout_height="240dp"
+        android:background="@drawable/cozinha"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/sala"
+        app:layout_constraintEnd_toStartOf="@+id/sala" />
+
+    <ToggleButton
+        android:id="@+id/quartopais"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/quartopais"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toTopOf="@+id/cozinha"
+        app:layout_constraintEnd_toStartOf="@+id/corredor" />
+
+    <ToggleButton
+        android:id="@+id/banheiropais"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/banheiropais"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toTopOf="@+id/quartopais"
+        app:layout_constraintEnd_toEndOf="@+id/quartopais" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="68dp"
+        android:text="Gasto Mensal: "
+        android:textColor="#FFD700"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

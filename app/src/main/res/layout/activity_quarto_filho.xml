@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    tools:context=".Corredor">
+
+    <ImageView
+        android:id="@+id/corredorsolo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/quartofilhoapagado" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch1"
+        android:layout_width="169dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="60dp"
+        android:text="Ativar"
+        android:textColor="#FFD700"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:thumbTint="#FFD700"
+        app:trackTint="@drawable/tracktint"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/retornabutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="608dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/retorna" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
